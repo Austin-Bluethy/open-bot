@@ -141,6 +141,8 @@ async def botTrigger(event):
         await bot.send_file(event.chat_id, '/home/austin/Desktop/Petuhon/telethon/openBot/audio/blood_and_concrete.mp3', voice_note=True)
     elif 'опенбот' in event.raw_text.lower() or 'опен бот' in event.raw_text.lower() or 'опен' in event.raw_text.lower() or 'пизда' in event.raw_text.lower():
         await bot.send_file(event.chat_id, '/home/austin/Desktop/Petuhon/telethon/openBot/audio/кровь_и_бетон.mp3', voice_note=True)
+    elif 'god ' in event.raw_text.lower() or ' god ' in event.raw_text.lower() or 'god' == event.raw_text.lower():
+        await bot.send_file(event.chat_id, '/home/austin/Desktop/Petuhon/telethon/openBot/audio/pupl_fiction.mp3', voice_note=True)
 
 #This is test hadler for testing new features
 @bot.on(events.NewMessage)
